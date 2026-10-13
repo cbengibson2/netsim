@@ -1,0 +1,29 @@
+# Large raw input data -- not redistributable
+eldemog2.Rdata
+
+# Derived / cached network objects -- regenerate from source scripts
+net.Rdata
+netsl.Rdata
+basis_inputs.Rdata
+
+# Planning and exploratory documents -- not part of reproducible workflow
+NetworkGeneration.Rmd
+DLEDynamic.Rmd
+DLEDynamic.html
+
+# Exploratory scratch scripts
+R/explore.R
+R/fullnetstats.R
+R/city_sim_singlescript_eval.R
+
+# R package scaffolding placeholder (not real package code)
+R/hello.R
+man/hello.Rd
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
